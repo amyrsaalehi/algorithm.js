@@ -1,6 +1,6 @@
 {
   "name": "sorting-algorithms-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of sorting algorithms implemented in JavaScript.",
   "main": "dist/algorithm.js",
   "repository": {
