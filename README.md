@@ -1,17 +1,17 @@
-# algorithm.js
+# sorting-algorithms-js
 
 A collection of sorting algorithms implemented in JavaScript.
 
 ## Installation
 
 ```bash
-npm install algorithm.js
+npm install sorting-algorithms-js
 ```
 
 ## Usage
 
 ```javaScript
-import { bubbleSort, quickSort } from 'algorithm.js';
+import { bubbleSort, quickSort } from 'sorting-algorithms-js';
 
 const arr = [5, 3, 8, 4, 2];
 const sortedArray = quickSort(arr);

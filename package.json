@@ -1,11 +1,11 @@
 {
-  "name": "algorithm.js",
+  "name": "sorting-algorithms-js",
   "version": "1.0.0",
   "description": "A collection of sorting algorithms implemented in JavaScript.",
   "main": "dist/algorithm.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amyrsaalehi/algorithm.js.git"
+    "url": "git+https://github.com/amyrsaalehi/sorting-algorithms-js.git"
   },
   "keywords": [
     "algorithms",
@@ -20,9 +20,9 @@
     "insertion sort"
   ],
   "bugs": {
-    "url": "https://github.com/amyrsaalehi/algorithm.js/issues"
+    "url": "https://github.com/amyrsaalehi/sorting-algorithms-js/issues"
   },
-  "homepage": "https://github.com/amyrsaalehi/algorithm.js#readme",
+  "homepage": "https://github.com/amyrsaalehi/sorting-algorithms-js#readme",
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
