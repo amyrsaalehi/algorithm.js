@@ -1,0 +1,10 @@
+### **Specify Files to Include**
+
+Add a `files` field in `package.json` to specify which files to include when publishing.
+
+```json
+"files": [
+  "dist",
+  "README.md"
+],
+```

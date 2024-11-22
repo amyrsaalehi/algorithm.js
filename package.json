@@ -1,0 +1,39 @@
+{
+  "name": "algorithm.js",
+  "version": "1.0.0",
+  "description": "A collection of sorting algorithms implemented in JavaScript.",
+  "main": "dist/algorithm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amyrsaalehi/algorithm.js.git"
+  },
+  "keywords": [
+    "algorithms",
+    "sorting",
+    "javascript",
+    "data structures",
+    "bubble sort",
+    "merge sort",
+    "quick sort",
+    "heap sort",
+    "selection sort",
+    "insertion sort"
+  ],
+  "bugs": {
+    "url": "https://github.com/amyrsaalehi/algorithm.js/issues"
+  },
+  "homepage": "https://github.com/amyrsaalehi/algorithm.js#readme",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Amir Salehi",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "eslint": "^9.15.0",
+    "rollup": "^2.79.2",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
